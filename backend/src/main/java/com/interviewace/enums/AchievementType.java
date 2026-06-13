@@ -1,0 +1,2 @@
+package com.interviewace.enums;
+public enum AchievementType { FIRST_TEST, JAVA_EXPERT, SPRING_BOOT_EXPERT, REACT_EXPERT, TEN_TESTS_COMPLETED, FIFTY_TESTS_COMPLETED }
