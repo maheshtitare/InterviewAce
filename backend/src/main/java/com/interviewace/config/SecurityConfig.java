@@ -35,6 +35,7 @@ public class SecurityConfig {
         .requestMatchers("/api/test/secure").authenticated()
         .requestMatchers("/api/profile/**").authenticated()
         .requestMatchers("/api/skills/**").authenticated()
+        .requestMatchers("/api/education/**").authenticated()
         .anyRequest().permitAll()
 )
                 .addFilterBefore(
