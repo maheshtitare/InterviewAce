@@ -5,8 +5,7 @@ const testService = {
     api.get('/student/tests', { params: { category, page, size } }),
   
   startTest: (testId) =>
-    api.post(`/student/test-attempts/start/${testId}`, {}),
-  
+  api.post(`/tests/start/${testId}`),  
   getTestQuestions: (attemptId) =>
     api.get(`/student/test-attempts/${attemptId}/questions`),
   

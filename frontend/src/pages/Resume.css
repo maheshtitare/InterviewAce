@@ -1,0 +1,63 @@
+.resume-container {
+  padding: 30px;
+}
+
+.resume-card {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.resume-title {
+  color: #2563eb;
+  margin-bottom: 25px;
+}
+
+.upload-section {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+.upload-btn {
+  margin-top: 15px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.resume-preview {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 25px;
+}
+
+.resume-preview h3,
+.resume-preview h4 {
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+.resume-preview ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.resume-preview li {
+  margin-bottom: 5px;
+}
+
+.info-row {
+  margin-bottom: 10px;
+}
+
+.info-row strong {
+  margin-right: 10px;
+}

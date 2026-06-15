@@ -1,0 +1,81 @@
+.projects-container {
+padding: 30px;
+}
+
+.projects-card {
+background: white;
+border-radius: 20px;
+padding: 30px;
+box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.projects-title {
+color: #2563eb;
+margin-bottom: 25px;
+}
+
+.project-form {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 15px;
+margin-bottom: 25px;
+}
+
+.project-form input {
+padding: 12px;
+border: 1px solid #dbe3ef;
+border-radius: 10px;
+}
+
+.project-form input:focus {
+outline: none;
+border-color: #2563eb;
+}
+
+.add-project-btn {
+background: #2563eb;
+color: white;
+border: none;
+padding: 12px 20px;
+border-radius: 10px;
+cursor: pointer;
+margin-bottom: 25px;
+}
+
+.projects-grid {
+display: grid;
+grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+gap: 20px;
+}
+
+.project-item {
+background: #f8fafc;
+border: 1px solid #e2e8f0;
+border-radius: 14px;
+padding: 20px;
+}
+
+.project-item h3 {
+color: #2563eb;
+margin-bottom: 10px;
+}
+
+.delete-btn {
+margin-top: 10px;
+background: #ef4444;
+color: white;
+border: none;
+padding: 10px 16px;
+border-radius: 8px;
+cursor: pointer;
+}
+
+.delete-btn:hover {
+background: #dc2626;
+}
+
+@media (max-width:768px) {
+.project-form {
+grid-template-columns: 1fr;
+}
+}

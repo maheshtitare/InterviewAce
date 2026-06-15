@@ -1,0 +1,43 @@
+.attempts-container {
+  padding: 30px;
+}
+
+.attempts-card {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.attempts-title {
+  color: #2563eb;
+  margin-bottom: 25px;
+}
+
+.attempts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+  gap: 20px;
+}
+
+.attempt-item {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.attempt-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+.attempt-item h3 {
+  color: #2563eb;
+  margin-bottom: 15px;
+}
+
+.attempt-info {
+  margin-bottom: 8px;
+}

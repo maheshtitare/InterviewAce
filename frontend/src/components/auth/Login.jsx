@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import authService from '../../services/authService';
+import './Login.css';
 import './Auth.css';
 
 function Login() {
@@ -46,8 +47,13 @@ navigate('/dashboard');
   };
 
   return (
-    <div className="auth-container">
-      <div className="auth-card">
+   <div className="auth-container">
+
+  <div className="floating-shape shape1"></div>
+  <div className="floating-shape shape2"></div>
+  <div className="floating-shape shape3"></div>
+
+  <div className="auth-card">
         <h1>InterviewAce</h1>
         <h2>Login</h2>
         

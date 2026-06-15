@@ -1,0 +1,94 @@
+.education-container {
+padding: 30px;
+}
+
+.education-card {
+background: white;
+border-radius: 20px;
+padding: 30px;
+box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.education-title {
+color: #2563eb;
+margin-bottom: 25px;
+}
+
+.education-form {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 15px;
+margin-bottom: 25px;
+}
+
+.education-form input {
+padding: 12px;
+border: 1px solid #dbe3ef;
+border-radius: 10px;
+}
+
+.education-form input:focus {
+outline: none;
+border-color: #2563eb;
+box-shadow: 0 0 0 3px rgba(37,99,235,0.15);
+}
+
+.add-education-btn {
+background: linear-gradient(
+135deg,
+#2563eb,
+#3b82f6
+);
+
+color: white;
+border: none;
+padding: 12px 20px;
+border-radius: 10px;
+cursor: pointer;
+font-weight: 600;
+margin-bottom: 25px;
+}
+
+.education-grid {
+display: grid;
+grid-template-columns: repeat(auto-fill,minmax(320px,1fr));
+gap: 20px;
+}
+
+.education-item {
+background: #f8fafc;
+border: 1px solid #e2e8f0;
+border-radius: 14px;
+padding: 20px;
+transition: all 0.3s ease;
+}
+
+.education-item:hover {
+transform: translateY(-4px);
+box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.education-item h3 {
+color: #2563eb;
+margin-bottom: 10px;
+}
+
+.delete-btn {
+margin-top: 10px;
+background: #ef4444;
+color: white;
+border: none;
+padding: 10px 16px;
+border-radius: 8px;
+cursor: pointer;
+}
+
+.delete-btn:hover {
+background: #dc2626;
+}
+
+@media (max-width: 768px) {
+.education-form {
+grid-template-columns: 1fr;
+}
+}

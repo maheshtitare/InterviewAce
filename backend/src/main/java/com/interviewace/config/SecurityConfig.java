@@ -29,7 +29,8 @@ public class SecurityConfig {
             throws Exception {
 
         http
-                .csrf(csrf -> csrf.disable())
+        .cors(Customizer.withDefaults())
+        .csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests(auth -> auth
         .requestMatchers("/api/auth/**").permitAll()
         .requestMatchers("/api/test/secure").authenticated()

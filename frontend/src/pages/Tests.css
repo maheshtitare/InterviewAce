@@ -1,0 +1,58 @@
+.tests-container {
+  padding: 30px;
+}
+
+.tests-card {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.tests-title {
+  color: #2563eb;
+  margin-bottom: 25px;
+}
+
+.tests-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(320px,1fr));
+  gap: 20px;
+}
+
+.test-item {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.test-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+.test-item h3 {
+  color: #2563eb;
+  margin-bottom: 15px;
+}
+
+.test-info {
+  margin-bottom: 8px;
+}
+
+.start-btn {
+  margin-top: 15px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.start-btn:hover {
+  background: #1d4ed8;
+}

@@ -1,0 +1,126 @@
+.skills-container {
+  padding: 30px;
+}
+
+.skills-card {
+  background: white;
+
+  border-radius: 20px;
+
+  padding: 30px;
+
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.skills-title {
+  color: #2563eb;
+
+  margin-bottom: 25px;
+}
+
+.skill-form {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 15px;
+
+  margin-bottom: 25px;
+}
+
+.skill-form input {
+  padding: 12px;
+
+  border: 1px solid #dbe3ef;
+
+  border-radius: 10px;
+}
+
+.skill-form input:focus {
+  outline: none;
+
+  border-color: #2563eb;
+
+  box-shadow: 0 0 0 3px rgba(37,99,235,0.15);
+}
+
+.add-skill-btn {
+  background: linear-gradient(
+    135deg,
+    #2563eb,
+    #3b82f6
+  );
+
+  color: white;
+
+  border: none;
+
+  padding: 12px 20px;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  font-weight: 600;
+
+  margin-bottom: 25px;
+}
+
+.skills-grid {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+
+  gap: 20px;
+}
+
+.skill-item {
+  background: #f8fafc;
+
+  border: 1px solid #e2e8f0;
+
+  border-radius: 14px;
+
+  padding: 20px;
+
+  transition: all 0.3s ease;
+}
+
+.skill-item:hover {
+  transform: translateY(-4px);
+
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.skill-item h3 {
+  color: #2563eb;
+
+  margin-bottom: 10px;
+}
+
+.delete-btn {
+  margin-top: 10px;
+
+  background: #ef4444;
+
+  color: white;
+
+  border: none;
+
+  padding: 10px 16px;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: #dc2626;
+}
+
+@media (max-width: 768px) {
+
+  .skill-form {
+    grid-template-columns: 1fr;
+  }
+}
