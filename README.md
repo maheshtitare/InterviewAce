@@ -1,8 +1,8 @@
 # InterviewAce 🚀
 
-A Full Stack Interview Preparation Platform built using React, Spring Boot, JWT Authentication, and MySQL.
+A Full Stack Interview Preparation Platform built using React.js, Spring Boot, JWT Authentication, and MySQL.
 
-InterviewAce helps students and job seekers prepare for interviews through MCQ assessments, performance tracking, leaderboards, resume management, and profile building features.
+InterviewAce helps students prepare for technical interviews through MCQ assessments, performance analytics, leaderboard rankings, profile management, and resume management.
 
 ---
 
@@ -16,27 +16,29 @@ InterviewAce helps students and job seekers prepare for interviews through MCQ a
 
 ### Dashboard
 
-* User Dashboard Overview
-* Performance Summary
+* User Dashboard
+* Performance Overview
+* Dashboard Analytics
 
-### MCQ Assessment System
+### MCQ Assessment
 
-* MCQ Test Module
+* MCQ Test Engine
 * Test Attempt Tracking
 * Score Calculation
 
-### Performance Analytics
+### Analytics & Rankings
 
-* Result Analysis Dashboard
-* Leaderboard Ranking System
+* Result Analysis
+* Performance Insights
+* Leaderboard Rankings
 
 ### Profile Management
 
-* Profile Information Management
+* Profile Management
 * Education Management
 * Experience Management
 * Skills Management
-* Project Management
+* Projects Management
 * Resume Management
 
 ### Administration
@@ -56,7 +58,7 @@ InterviewAce helps students and job seekers prepare for interviews through MCQ a
 
 ### Backend
 
-* Java 17
+* Java
 * Spring Boot
 * Spring Security
 * JWT Authentication
@@ -73,44 +75,33 @@ InterviewAce helps students and job seekers prepare for interviews through MCQ a
 
 ---
 
-## System Architecture
-
-```text
-Frontend (React.js)
-        │
-        ▼
-REST APIs (Axios)
-        │
-        ▼
-Spring Boot Backend
-        │
-        ▼
-MySQL Database
-```
-
----
-
 ## Project Structure
 
 ```text
 InterviewAce
 │
-├── backend
-│   ├── src
-│   ├── pom.xml
-│   └── ...
-│
-├── frontend
-│   ├── src
-│   ├── public
-│   └── ...
-│
-├── screenshots
-│
-├── API_DOCUMENTATION.md
-├── PROJECT_SETUP_GUIDE.md
-├── PROJECT_SUMMARY.txt
+├── .github/
+├── backend/
+├── frontend/
+├── screenshots/
 └── README.md
+```
+
+---
+
+## System Architecture
+
+```text
+React Frontend
+      │
+      ▼
+ REST APIs
+      │
+      ▼
+ Spring Boot Backend
+      │
+      ▼
+     MySQL
 ```
 
 ---
@@ -128,7 +119,6 @@ InterviewAce
 ### Dashboard Analytics
 
 ![Dashboard Analytics](screenshots/screenshots_dashboard.png%20\(2\).png)
-
 
 ### MCQ Test
 
@@ -174,10 +164,9 @@ InterviewAce
 
 ![Admin Dashboard](screenshots/Screenshots_AdminDashboard.png)
 
-
 ---
 
-## Getting Started
+## Installation
 
 ### Clone Repository
 
@@ -194,7 +183,7 @@ mvn clean install
 mvn spring-boot:run
 ```
 
-Backend runs on:
+Backend:
 
 ```text
 http://localhost:8080
@@ -208,7 +197,7 @@ npm install
 npm start
 ```
 
-Frontend runs on:
+Frontend:
 
 ```text
 http://localhost:3000
@@ -216,29 +205,29 @@ http://localhost:3000
 
 ---
 
-## Documentation
-
-### API Documentation
-
-
 ## Key Modules
 
 * Authentication Module
 * Dashboard Module
 * MCQ Test Engine
+* Test Attempts Module
 * Result Analysis Module
 * Leaderboard Module
-* Profile Management Module
-* Resume Management Module
+* Profile Module
+* Education Module
+* Experience Module
+* Skills Module
+* Projects Module
+* Resume Module
 * Admin Dashboard Module
 
 ---
 
-## Future Enhancements
+## GitHub Repository
 
-* Coding Assessment Module
-* Advanced Analytics Dashboard
-* Interview Feedback System
+Repository:
+
+https://github.com/maheshtitare/InterviewAce
 
 ---
 
@@ -250,8 +239,8 @@ Java Full Stack Developer
 
 Email: [maheshtitare748@gmail.com](mailto:maheshtitare748@gmail.com)
 
-GitHub: https://github.com/maheshtitare
-
+GitHub:
+https://github.com/maheshtitare
 
 ---
 
