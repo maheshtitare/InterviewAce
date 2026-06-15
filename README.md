@@ -117,8 +117,6 @@ InterviewAce
 
 ## Screenshots
 
-## Screenshots
-
 ### Login Page
 
 ![Login](screenshots/screenshots_login.png)
@@ -126,6 +124,11 @@ InterviewAce
 ### Dashboard
 
 ![Dashboard](screenshots/screenshots_dashboard.png)
+
+### Dashboard Analytics
+
+![Dashboard Analytics](screenshots/screenshots_dashboard.png%20\(2\).png)
+
 
 ### MCQ Test
 
